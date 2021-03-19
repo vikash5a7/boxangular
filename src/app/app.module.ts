@@ -13,12 +13,10 @@ import {MatDialogModule} from '@angular/material/dialog';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
-import { Custam2Component } from './custam2/custam2.component';
 @NgModule({
   declarations: [
     AppComponent,
     CustamComponent,
-    Custam2Component
   ],
   imports: [
     BrowserModule,
