@@ -1,0 +1,28 @@
+.with-icon{
+    padding-left: 800px;
+    color: #8aefa9;
+    cursor: pointer;
+}
+.custom-chip{
+    border-radius: 16px;
+    background-color: #ede5ee;
+    height: 50px;
+    width: 100px;
+}
+.box{
+    height: 30px;
+    background-color: #4a5d3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 36px;
+    margin-right: 44px;
+}
+::ng-deep .mat-form-field-flex > .mat-form-field-infix { padding: 0.8em 5px !important;
+    width:380px !important;}
+::ng-deep .mat-form-field-label-wrapper { top: -1.5em; }
+
+
