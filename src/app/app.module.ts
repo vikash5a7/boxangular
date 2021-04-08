@@ -12,11 +12,16 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
+import {MatMenuModule} from '@angular/material/menu';
 import {MatInputModule} from '@angular/material/input';
+import { SearchbarComponent } from './searchbar/searchbar.component';
+import { MenuComponent } from './menu/menu.component';
 @NgModule({
   declarations: [
     AppComponent,
     CustamComponent,
+    SearchbarComponent,
+    MenuComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,7 +35,8 @@ import {MatInputModule} from '@angular/material/input';
     MatIconModule,
     MatChipsModule,
     FlexLayoutModule,
-    MatDialogModule
+    MatDialogModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -99,7 +99,9 @@
     </a>
 </div>
 
+
 <div class="content">
+ 
   
   <div class="card-container" *ngFor="let number of [0,1]">
   <mat-card style="height: 250px;
@@ -107,6 +109,7 @@
     <mat-card-header>
       <mat-card-title >Time Slots</mat-card-title>
       <mat-icon class="with-icon" aria-hidden="false" aria-label="Example home icon"  (click)="openDialog()">add_circle</mat-icon>
+     <app-menu></app-menu>
     </mat-card-header>
     <div 
     fxLayout="row wrap" fxLayoutGap="20px" fxLayoutAlign="flex-start">
@@ -118,9 +121,10 @@
     </ng-container>
     </div>
   </mat-card>
+ 
   </div>
   
-
 </div>
+<app-searchbar></app-searchbar>
 
 <router-outlet></router-outlet>
